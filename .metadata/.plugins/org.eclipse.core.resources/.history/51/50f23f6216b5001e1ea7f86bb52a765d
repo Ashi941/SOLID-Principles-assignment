@@ -1,0 +1,25 @@
+package com.ilp.utility;
+
+import java.util.Scanner;
+
+import com.ilp.entity.FeedbackManager;
+
+public class FeedbackManagerUtility {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 Scanner scanner = new Scanner(System.in);
+		 System.out.println("enter the feedback managerId");
+		 String fbmID = scanner.nextLine(); 
+		 System.out.println("enter the feedback");
+		 String feedbackAdmin = scanner.nextLine(); //can be a list of feedbacks
+		 FeedbackManager feedM = new FeedbackManager(fbmID,feedbackAdmin);
+		feedM.displayfeedback();
+		feedM.replytofeedback();
+		feedM.deletefeedback();
+		
+		
+
+	}
+
+}

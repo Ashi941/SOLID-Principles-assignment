@@ -1,0 +1,10 @@
+package com.ilp.interfaces;
+
+import com.ilp.entity.Feedback;
+
+public interface feedbackManagerInterface {
+	void displayfeedback(Feedback feedback);
+	void replytofeedback(Feedback feedback);
+	void deletefeedback(Feedback feedback);
+
+}

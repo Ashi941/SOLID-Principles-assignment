@@ -1,0 +1,24 @@
+package com.ilp.entity;
+import com.ilp.interfaces.FeedbackRemoteDatabase;
+public class FeedbackDatabase implements FeedbackDatabase, FeedbackRemoteDatabase {
+
+	public void connect() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void isconnect() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void configureconnect() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	
+	
+	
+}

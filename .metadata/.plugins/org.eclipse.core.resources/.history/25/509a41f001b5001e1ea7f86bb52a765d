@@ -1,0 +1,18 @@
+package com.ilp.utility;
+
+import com.ilp.entity.Feedback;
+import com.ilp.entity.FeedbackManager;
+
+public class FeedbackUtility {
+
+	public static void main(String[] args) {
+		Feedback fb1 = new Feedback();
+		FeedbackManager fbm1 = new FeedbackManager();
+		
+		
+	   
+		
+
+	}
+
+}

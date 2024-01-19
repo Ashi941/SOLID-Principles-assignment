@@ -1,0 +1,61 @@
+
+package com.ilp.entity;
+
+
+import com.ilp.interfaces.feedbackManagerInterface;
+
+public class FeedbackManager implements feedbackManagerInterface  {
+
+	private String feedbackMAnagerId;
+	private String fb;
+    public Feedback feedback;
+
+
+
+
+
+	public FeedbackManager(Feedback feedback) {
+		this.feedback = feedback;
+		System.out.println("Feedback successful\n");
+		
+	}
+	public String getFeedbackMAnagerId() {
+		return feedbackMAnagerId;
+	}
+	
+	public void setFeedbackMAnagerId(String feedbackMAnagerId) {
+		this.feedbackMAnagerId = feedbackMAnagerId;
+	}
+	public String getFb() {
+		return fb;
+	}
+	public void setFb(String fb) {
+		this.fb = fb;
+	}
+	@Override
+	public void displayfeedback(Feedback feedback) {
+		// TODO Auto-generated method stub
+		System.out.println("Admin displays the feedback");	
+	}
+	@Override
+	public void replytofeedback(Feedback feedback) {
+		// TODO Auto-generated method stub
+		System.out.println("Admin replies to the feedback");
+
+		
+	}
+	@Override
+	public void deletefeedback(Feedback feedback) {
+		// TODO Auto-generated method stub
+		System.out.println("Admin deletes the feedback");
+
+		
+	}
+
+	
+	
+	
+	
+	}	
+	
+	

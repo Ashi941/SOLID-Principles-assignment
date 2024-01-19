@@ -1,0 +1,23 @@
+package com.ilp.services;
+
+import com.ilp.entity.Feedback;
+import com.ilp.interfaces.feedbackInterface;
+
+public class FeedbackServices implements feedbackInterface {
+
+
+
+	@Override
+	public void addfeedback(Feedback feedback) {
+		// TODO Auto-generated method stub
+		System.out.println("The user adds the feedback");
+	}
+
+	@Override
+	public void submitfeedback(Feedback feedback) {
+		// TODO Auto-generated method stub
+		System.out.println("The user submits the feedback");
+		
+	}
+
+}

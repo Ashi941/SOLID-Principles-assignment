@@ -1,0 +1,39 @@
+
+package com.ilp.entity;
+import com.ilp.interfaces.*;
+import java.util.ArrayList;
+
+public class FeedbackManager implements feedbackManager {
+
+	private String feedbackMAnagerId;
+	private ArrayList<Feedback> fb;
+	public String getFeedbackMAnagerId() {
+		return feedbackMAnagerId;
+	}
+	public void setFeedbackMAnagerId(String feedbackMAnagerId) {
+		this.feedbackMAnagerId = feedbackMAnagerId;
+	}
+	public ArrayList<Feedback> getFb() {
+		return fb;
+	}
+	public void setFb(ArrayList<Feedback> fb) {
+		this.fb = fb;
+	}
+	@Override
+	public void displayfeedback() {
+	
+		
+	}
+	@Override
+	public void replytofeedback() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void deletefeedback() {
+		// TODO Auto-generated method stub
+		
+	}	
+	
+	
+}

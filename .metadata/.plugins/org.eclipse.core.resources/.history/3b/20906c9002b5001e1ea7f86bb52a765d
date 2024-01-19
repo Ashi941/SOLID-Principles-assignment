@@ -1,0 +1,42 @@
+package com.ilp.entity;
+import com.ilp.interfaces.*;
+public class Feedback implements feedback {
+	
+private String feedbackId;
+private String feedback;
+private int rating;
+public String getFeedbackId() {
+	return feedbackId;
+}
+public void setFeedbackId(String feedbackId) {
+	this.feedbackId = feedbackId;
+}
+public String getFeedback() {
+	return feedback;
+}
+public void setFeedback(String feedback) {
+	this.feedback = feedback;
+}
+public int getRating() {
+	return rating;
+}
+public void setRating(int rating) {
+	this.rating = rating;
+}
+@Override
+public void addfeedback() {
+	System.out.println("The feedback is added here \n");
+	
+}
+public Feedback(String feedbackId, String feedback, int rating) {
+	this.feedbackId = feedbackId;
+	this.feedback = feedback;
+	this.rating = rating;
+}
+@Override
+public void submitfeedback() {
+	
+	System.out.println("The feedback is submitted here \n");
+}
+
+}

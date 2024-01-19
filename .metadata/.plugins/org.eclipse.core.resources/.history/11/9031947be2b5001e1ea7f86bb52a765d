@@ -1,0 +1,27 @@
+package com.ilp.entity;
+public class Feedback {
+private String feedbackId;
+private String feedback;
+private int rating;
+
+public String getFeedbackId() {
+	return feedbackId;
+}
+public void setFeedbackId(String feedbackId) {
+	this.feedbackId = feedbackId;
+}
+public String getFeedback() {
+	return feedback;
+}
+public void setFeedback(String feedback) {
+	this.feedback = feedback;
+}
+
+
+public int getRating() {
+	return rating;
+}
+public void setRating(int rating) {
+	this.rating = rating;
+}
+}

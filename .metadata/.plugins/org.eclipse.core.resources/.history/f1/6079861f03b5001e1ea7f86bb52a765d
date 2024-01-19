@@ -1,0 +1,32 @@
+package com.ilp.utility;
+
+import java.util.Scanner;
+
+import com.ilp.entity.Feedback;
+
+public class FeedbackUtility {
+
+	static Scanner scanner = new Scanner(System.in);
+	public static void main(String[] args) {
+	 System.out.println("enter the feedbackId");
+	 String fbID = scanner.nextLine(); 
+	 System.out.println("enter the feedback");
+	 String currentfeedback = scanner.nextLine(); 
+	 System.out.println("enter the rating");
+	 int fbrating = scanner.nextInt(); 
+	 Feedback fb1 = new Feedback(fbID,currentfeedback,fbrating);
+	 
+	 
+		
+		
+		
+		
+		
+		
+		
+	   
+		
+
+	}
+
+}

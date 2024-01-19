@@ -1,0 +1,27 @@
+package com.ilp.services;
+
+import com.ilp.entity.Feedback;
+import com.ilp.interfaces.feedbackManagerInterface;
+
+public class FeedbackManagerService implements feedbackManagerInterface {
+
+	@Override
+	public void displayfeedback(Feedback feedback) {
+		// TODO Auto-generated method stub
+		System.out.println("The feedback is displayed here");
+		
+	}
+
+	@Override
+	public void replytofeedback(Feedback feedback) {
+		// TODO Auto-generated method stub
+		System.out.println("The admin replies to the feedback");
+	}
+
+	@Override
+	public void deletefeedback(Feedback feedback) {
+		// TODO Auto-generated method stub
+		System.out.println("Feedback deleted by the admin");
+	}
+
+}

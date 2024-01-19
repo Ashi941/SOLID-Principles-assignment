@@ -1,0 +1,29 @@
+
+package com.ilp.entity;
+
+public class FeedbackManager   {
+
+	private String feedbackMAnagerId;
+	private String fb;
+	public String getFeedbackMAnagerId() {
+		return feedbackMAnagerId;
+	}
+	public FeedbackManager(String feedbackMAnagerId, String fb) {
+		super();
+		this.feedbackMAnagerId = feedbackMAnagerId;
+		this.setFb(fb);
+	}
+	public void setFeedbackMAnagerId(String feedbackMAnagerId) {
+		this.feedbackMAnagerId = feedbackMAnagerId;
+	}
+	public String getFb() {
+		return fb;
+	}
+	public void setFb(String fb) {
+		this.fb = fb;
+	}
+	
+	
+	}	
+	
+	

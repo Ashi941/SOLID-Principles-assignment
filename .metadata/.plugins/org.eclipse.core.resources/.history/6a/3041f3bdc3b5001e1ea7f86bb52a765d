@@ -1,0 +1,6 @@
+package com.ilp.interfaces;
+
+public interface feedbackInterface {
+	void addfeedback();
+	void submitfeedback();
+}

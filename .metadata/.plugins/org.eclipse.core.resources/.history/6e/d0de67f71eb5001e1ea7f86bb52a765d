@@ -1,0 +1,8 @@
+package com.ilp.interfaces;
+
+public interface feedbackManagerInterface {
+	void displayfeedback();
+	void replytofeedback();
+	void deletefeedback();
+
+}

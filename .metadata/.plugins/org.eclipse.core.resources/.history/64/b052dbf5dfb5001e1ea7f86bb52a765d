@@ -1,0 +1,32 @@
+package com.ilp.utility;
+
+import java.util.Scanner;
+
+import com.ilp.entity.Feedback;
+import com.ilp.entity.FeedbackManager;
+import com.ilp.entity.FeedbackType;
+
+public class FeedbackUtility {
+
+	public static void main(String[] args) {
+      
+		
+	 Feedback fb1 = new Feedback();
+	 FeedbackType fbt1 = new FeedbackType(); 
+	 
+	 
+	 FeedbackManager fbm1 = new FeedbackManager(fb1);
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+  }
+
+}

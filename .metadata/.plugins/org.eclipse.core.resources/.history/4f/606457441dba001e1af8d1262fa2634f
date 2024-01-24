@@ -1,0 +1,7 @@
+package com.ilp.entity;
+
+import com.ilp.interfaces.*;
+
+public class FeedbackAllDatabase implements FeedbackDatabase,FeedbackRemoteDatabase {
+
+}

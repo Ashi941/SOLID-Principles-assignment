@@ -3,16 +3,16 @@ package com.ilp.entity;
 import com.ilp.interfaces.FeedbackRemoteDatabase;
 
 public class FeedbackMainDatabase {
-	private FeedbackRemoteDatabase feedbackremotedatabase;     //Dependency Inversion Principle
+	private FeedbackDatabase feedbackdatabase;     
 
-	public FeedbackMainDatabase(FeedbackRemoteDatabase feedbackremotedatabase) {
-		this.feedbackremotedatabase = feedbackremotedatabase;
+	public FeedbackMainDatabase(FeedbackDatabase feedbackdatabase) {
+		this.feedbackdatabase = feedbackdatabase;
 	}
 	
-void promoteFeedback()
+void saveSettings()
 {
-	System.out.println("The feedback has been promoted");
+	this.feedbackdatabase.store();
 }
-	
+
 	
 }

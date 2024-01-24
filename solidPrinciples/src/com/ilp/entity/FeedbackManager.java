@@ -1,7 +1,6 @@
 
 package com.ilp.entity;
 
-
 import com.ilp.interfaces.FeedbackManagerInterface;
 
 public class FeedbackManager implements FeedbackManagerInterface  {
@@ -10,7 +9,7 @@ public class FeedbackManager implements FeedbackManagerInterface  {
 	private String fb;
     public Feedback feedback;
     
-    public FeedbackManager(Feedback feedback) {
+public FeedbackManager(Feedback feedback) {
 		this.feedback = feedback;
 		System.out.println("Feedback successful\n");
 		
@@ -42,7 +41,6 @@ public class FeedbackManager implements FeedbackManagerInterface  {
 		// TODO Auto-generated method stub
 		System.out.println("Admin deletes the feedback");
 	}
-
 	
 	
 	

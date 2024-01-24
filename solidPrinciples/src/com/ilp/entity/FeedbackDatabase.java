@@ -17,6 +17,11 @@ public class FeedbackDatabase implements FeedbackRemoteDatabase {
 		System.out.println("Feedback database is configured");
 	}
 
+	public void store() {
+		// TODO Auto-generated method stub
+		
+	}
+
 	
 	
 	
